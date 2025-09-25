@@ -11,12 +11,187 @@
     <link rel="icon" type="image/png" href="images/favicon.ico">
     <!--Bootstrap CSS V5.0-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--Bootstrap Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <!--Fontawesome V7.0.1-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--Custom Styles-->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!--Header Section-->
+    <header class="py-5">
+        <div class="container-fluid d-flex justify-content-center">
+            <img src="images/logo.svg" alt="2HatsLogic Logo">               
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Spaces</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products & Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Showrooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Company</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        <a href="javascrip:void(0)"><i class="bi bi-cart3"></i></a>
+                        <a href="javascrip:void(0)"><i class="bi bi-heart"></i></a>
+                        <a href="javascrip:void(0)"><i class="bi bi-person"></i></a>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Main Section-->
+    <main>
+        <!--Banner section-->
+        <section class="hero-section d-flex align-items-center mt-0">
+            <div class="container">
+                <div class="row justify-content-center"> 
+                    <div class="col-12 col-md-8 col-lg-6 offset-lg-6">
+                        <div class="hero-content text-center text-md-start">
+                            <h1 class="display-4">Welcome to 2HatsLogic E-Commerce</h1>
+                            <p class="lead">Your one-stop shop for all your home needs. Discover our wide range of products and enjoy the best deals online.</p>
+                            <a href="#" class="btn btn-primary btn-lg">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Products Section-->
+        <section class="products-section pt-0">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2 class="text-center mb-5">Products</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                </div>
+                <div class="project-grid">
+                    <div class="project-box">
+                        <img src="images/products/bathroom-tiles.svg" alt="Bathroom Tile">
+                        <div class="project-content">
+                            <h3>Bathroom Tiles</h3>
+                            <p>Ante mus blandit sapien sociosqu per consequat ad.</p>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <img src="images/products/marble.svg" alt="Marble">
+                        <div class="project-content">
+                            <h3>Marble</h3>
+                            <p>Ante mus blandit sapien sociosqu</p>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <img src="images/products/outdoor.svg" alt="Outdoor Flooring">
+                        <div class="project-content">
+                            <h3>Bathroom Tiles</h3>
+                            <p>Ante mus blandit sapien sociosqu per consequat ad.</p>
+                        </div>
+                    </div>
+                    <div class="project-box">
+                        <img src="images/products/kitchen.svg" alt="Kitched Interior">
+                        <div class="project-content">
+                            <h3>Bathroom Tiles</h3>
+                            <p>Ante mus blandit sapien sociosqu per consequat ad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Project Section-->
+        <section class="projects-section">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2 class="text-center mb-5">Projects</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                </div>
+                <div class="project-flext">
+                    <div class="project-box">
+                        <img src="images/projects/kingdom.svg" alt="Bathroom Tile">
+                        <h3>Kingdom Tower</h3>
+                        <p>Marble Flooring</p>
+                    </div>
+                    <div class="project-box">
+                        <img src="images/projects/dubai-mall.svg" alt="Marble">
+                        <h3>Dubai mall</h3>
+                        <p>Wood Flooring</p>
+                    </div>
+                    <div class="project-box">
+                        <img src="images/projects/king-road.svg" alt="Outdoor Flooring">
+                        <h3>King Road Offices</h3>
+                        <p>Outdoor Flooring</p>
+                    </div>
+                    <div class="project-box">
+                        <img src="images/projects/beach-tower.svg" alt="Kitched Interior">
+                        <h3>Beach Tower Alupang</h3>
+                        <p>Wood Flooring</p>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <button class="btn">View All</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Footer Section-->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                    <img src="images/logo-white.svg" alt="2HatsLogic Logo">
+                    <a href="#" class="d-block mt-3"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="d-block"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="d-block"><i class="fa-brands fa-square-instagram"></i></a>
+                </div>
+                <div class="col-12 col-md-2 mb-3 mb-md-0">
+                    <h5>Products</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="active">Sand Stone</a></li>
+                        <li><a href="#">Stone</a></li>
+                        <li><a href="#">Cement</a></li>
+                        <li><a href="#">Soft Stone</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-2 mb-3 mb-md-0">
+                    <h5>Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Measurement Service</a></li>
+                        <li><a href="#">Product Advice</a></li>
+                        <li><a href="#">Interior Design</a></li>
+                    </ul>
+                </div>
+                 <div class="col-12 col-md-4 mb-3 mb-md-0">
+                    <h5>Contact information</h5>
+                    <p>3181 Al Imam Saud Ibn Abdul Aziz Branch Rd,<br>An Nuzhah, Riyadh 12474,<br>Saudi Arabia</p>
+                 </div>
+            </div>
+        </div>
+    </footer>
     
     <!--Bootstrap JS V5.0-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

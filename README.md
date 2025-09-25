@@ -12,11 +12,20 @@ Note: As this is a simple static webpage, node module dependencies are excluded 
 ### Customization
 
 - Update styles in [`css/style.css`](css/style.css).
-- Replace images in the [`images/`](images/) folder as needed.
+- Replace or add images in the [`images/`](images/) folder.
+- Update fonts in the [`fonts/`](fonts/) folder if needed.
+- Edit content directly in [`index.html`](index.html).
 
 ### Dependencies
 
 - [Bootstrap 5.0.2](https://getbootstrap.com/)
 - [Font Awesome 7.0.1](https://fontawesome.com/)
+- [Bootstrap Icons](https://icons.getbootstrap.com/)
+- [Google Fonts: Poppins](https://fonts.google.com/specimen/Poppins)
+- Proxima Nova (via local CSS)
 
-### License
+### Notes
+
+- The layout is fully responsive: the hero section and product grids adapt for mobile, tablet, and desktop.
+- The `<footer>` is placed outside the `<main>` tag, following HTML5 semantic best practices.
+- No JavaScript frameworks or build tools are required.
