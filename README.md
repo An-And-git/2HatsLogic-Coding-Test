@@ -31,3 +31,14 @@ Note: As this is a simple static webpage, node module dependencies are excluded 
 - The `<footer>` is placed outside the `<main>` tag, following HTML5 semantic best practices.
 - Additionally Equal space has been given under project & product headings.
 - No JavaScript frameworks or build tools are required.
+
+## Chrome Lighthouse Report
+
+| Category       | Score |
+| -------------- | ----- |
+| Performance    | 84%   |
+| Accessibility  | 88%   |
+| Best Practices | 100%  |
+| SEO            | 100%  |
+
+_Scores are based on Chrome Lighthouse audit of the current project version._
