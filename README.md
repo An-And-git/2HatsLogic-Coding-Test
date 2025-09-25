@@ -24,8 +24,10 @@ Note: As this is a simple static webpage, node module dependencies are excluded 
 - [Google Fonts: Poppins](https://fonts.google.com/specimen/Poppins)
 - Proxima Nova (via local CSS)
 
-### Notes
+### Notes: Accessibility & Responsiveness
 
-- The layout is fully responsive: the hero section and product grids adapt for mobile, tablet, and desktop.
+- The layout is fully responsive: hero section and product grids adapt for mobile, tablet, and desktop.
+- Focus outlines are restored for accessibility (`outline: revert;` for focusable elements).
 - The `<footer>` is placed outside the `<main>` tag, following HTML5 semantic best practices.
+- Additionally Equal space has been given under project & product headings.
 - No JavaScript frameworks or build tools are required.
